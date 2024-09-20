@@ -4,8 +4,7 @@ const router = express.Router();
 const  Schema = require('../models/login_schema');
 const bcrypt = require('bcrypt');
 const saltrounds =10;
-const logger = require('./logger'); 
-
+const logger = require('../../logger');
 
 ////////////////////////////////////mock database
 const users = [ ];

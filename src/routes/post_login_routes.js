@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const postSchema = require('../models/post_login_schema');
-const logger = require('./logger'); 
+const logger = require('../../logger'); 
 
 // Create  post
 router.post('/blogs', async (req, res) => {
